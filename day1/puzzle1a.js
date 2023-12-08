@@ -4,7 +4,7 @@ utils.readFile("./day1/input.txt", readData);
 let result = 0;
 
 function readData(data){
-    utils.readLine(data, readLine);
+    utils.readLines(data, readLine);
     console.log(result);
 }
 
